@@ -2247,6 +2247,10 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
+dotenv@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-1.2.0.tgz#7cd73e16e07f057c8072147a5bc3a8677f0ab5c6"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -2337,6 +2341,13 @@ ember-cli-dependency-checker@^1.3.0:
     chalk "^0.5.1"
     is-git-url "^0.2.0"
     semver "^4.1.0"
+
+ember-cli-dotenv@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-dotenv/-/ember-cli-dotenv-1.2.0.tgz#11aab75ee3d98305799778dad58072fca97c57f1"
+  dependencies:
+    dotenv "^1.0.0"
+    exists-sync "0.0.3"
 
 ember-cli-eslint@^3.0.0:
   version "3.0.3"
@@ -6508,9 +6519,9 @@ to-fast-properties@^1.0.0, to-fast-properties@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.2.tgz#f3f5c0c3ba7299a7ef99427e44633257ade43320"
 
-"torii@git+https://github.com/ef4/torii.git#938786f7cc727a1b4d3ee2d4647b63eb8037d1e8":
+"torii@https://github.com/ef4/torii#938786f7cc727a1b4d3ee2d4647b63eb8037d1e8":
   version "0.8.2"
-  resolved "git+https://github.com/ef4/torii.git#938786f7cc727a1b4d3ee2d4647b63eb8037d1e8"
+  resolved "https://github.com/ef4/torii#938786f7cc727a1b4d3ee2d4647b63eb8037d1e8"
   dependencies:
     broccoli-funnel "^1.0.1"
     broccoli-merge-trees "^1.1.1"
