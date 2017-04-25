@@ -51,8 +51,6 @@
   },
   "private": true,
   "dependencies": {
-    "@cardstack/authentication": "^0.0.9",
-    "@cardstack/github-auth": "^0.0.9",
     "dag-map": "^2.0.2"
   }
 }
