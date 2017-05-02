@@ -51,6 +51,7 @@
   },
   "private": true,
   "dependencies": {
-    "dag-map": "^2.0.2"
+    "dag-map": "^2.0.2",
+    "ember-resource-metadata": "^0.0.7"
   }
 }
