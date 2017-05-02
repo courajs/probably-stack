@@ -8,12 +8,6 @@ const Router = Ember.Router.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {
-  this.route('episodes', function() {
-    this.route('show', { path: ':slug' });
-  });
-
-  cardstackRoutes.call(this);
-});
+Router.map(cardstackRoutes);
 
 export default Router;
