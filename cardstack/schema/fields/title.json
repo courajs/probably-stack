@@ -1,0 +1,7 @@
+{
+  "type": "fields",
+  "id": "title",
+  "attributes": {
+    "field-type": "@cardstack/core-types::string"
+  }
+}

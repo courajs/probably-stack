@@ -1,0 +1,10 @@
+{
+  "type": "streams",
+  "id": 0,
+  "attributes": {
+    "slug": "elixir-and-phoenix-presence",
+    "title": "Elixir & Phoenix Presence",
+    "date": "2016-09-23",
+    "description": "The very first one!\n\nWe walked through building a small Elixir & Phoenix app for live audience participation. We took advantage of Phoenix Presence."
+  }
+}

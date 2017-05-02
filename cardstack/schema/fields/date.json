@@ -1,0 +1,7 @@
+{
+    "type": "fields",
+    "id": "date",
+    "attributes": {
+      "field-type": "@cardstack/core-types::date"
+    }
+  }
