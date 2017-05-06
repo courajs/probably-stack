@@ -8,6 +8,9 @@ const Router = Ember.Router.extend({
   rootURL: config.rootURL
 });
 
-Router.map(cardstackRoutes);
+Router.map(function() {
+  this.route('login');
+  cardstackRoutes.apply(this);
+});
 
 export default Router;

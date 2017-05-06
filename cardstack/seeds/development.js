@@ -28,6 +28,27 @@ module.exports = [
     }
   },
   {
+    type: 'plugin-configs',
+    id: 4,
+    attributes: {
+      module: 'cardstack-open-sesame'
+    }
+  },
+  {
+    type: 'plugin-configs',
+    id: 5,
+    attributes: {
+      module: '@cardstack/authentication'
+    }
+  },
+  {
+    type: 'authentication-sources',
+    id: 'open-sesame',
+    attributes: {
+      'authenticator-type': 'cardstack-open-sesame'
+    }
+  },
+  {
     type: 'data-sources',
     id: 0,
     attributes: {
@@ -53,13 +74,25 @@ module.exports = [
     }
   },
   {
+    type: 'data-sources',
+    id: 1,
+    attributes: {
+      'source-type': 'cardstack-open-sesame'
+    }
+  },
+  {
     type: 'grants',
-    id: 0,
+    id: 1,
     attributes: {
       'may-create-resource': true,
       'may-update-resource': true,
       'may-delete-resource': true,
       'may-write-field': true
+    },
+    relationships: {
+      who: {
+        data: { type: 'admin-users', id: 'admin' }
+      }
     }
   }
 ];

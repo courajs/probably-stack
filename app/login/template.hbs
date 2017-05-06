@@ -1,0 +1,9 @@
+{{#if session.isAuthenticated}}
+Logged in!
+{{else}}
+{{input
+  value=password
+  type="password"
+  enter=(action "login")
+}}
+{{/if}}
