@@ -1,7 +1,7 @@
 {
   "attributes": {
     "slug": "elixir-and-phoenix-presence",
-    "title": "Elixir & Phoenix Presence (ageh)",
+    "title": "Elixir & Phoenix Presence (treh)",
     "date": "2016-09-23T00:00:00.000Z",
     "description": "The very first one!\n\nWe walked through building a small Elixir & Phoenix app for live audience participation. We took advantage of Phoenix Presence."
   }
